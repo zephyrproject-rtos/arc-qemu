@@ -294,9 +294,13 @@ MAPPING(brhs, BRHS, 3, 0, 1, 2)
 MAPPING(seths, SETHS, 3, 1, 2, 0)
 MAPPING(ex, EX, 2, 0, 1)
 MAPPING(llock, LLOCK, 2, 0, 1)
+#ifdef TARGET_ARC32
 MAPPING(llockd, LLOCKD, 2, 0, 1)
+#endif
 MAPPING(scond, SCOND, 2, 1, 0)
+#ifdef TARGET_ARC32
 MAPPING(scondd, SCONDD, 2, 1, 0)
+#endif
 MAPPING(dmb, DMB, 1, 0)
 CONSTANT(LD, ld, 2, 0) /* For variable @src2 */
 MAPPING(ld, LD, 3, 1, 2, 0)
@@ -787,10 +791,12 @@ MAPPING(fdmsub, FDMSUB, 4, 0, 1, 2, 3)
 MAPPING(fdnmadd, FDNMADD, 4, 0, 1, 2, 3)
 MAPPING(fdnmsub, FDNMSUB, 4, 0, 1, 2, 3)
 
+#ifdef TARGET_ARC32
 MAPPING(fsmaddv2, FSMADDv2, 3, 0, 1, 2)
 MAPPING(fsmsubv2, FSMSUBv2, 3, 0, 1, 2)
 MAPPING(fdmaddv2, FDMADDv2, 3, 0, 1, 2)
 MAPPING(fdmsubv2, FDMSUBv2, 3, 0, 1, 2)
+#endif
 
 MAPPING(fsmadd, FSMADD, 4, 0, 1, 2, 3)
 MAPPING(fsmsub, FSMSUB, 4, 0, 1, 2, 3)
@@ -1154,13 +1160,21 @@ MAPPING(vfdbflyl, VFDBFLYL, 3, 0, 1, 2)
 MAPPING(vfdbflym, VFDBFLYM, 3, 0, 1, 2)
 
 SEMANTIC_FUNCTION(FCVT32, 3)
+#ifdef TARGET_ARC32
 MAPPING(fcvt32, FCVT32, 3, 0, 1, 2)
+#endif
 
 SEMANTIC_FUNCTION(FCVT32_64, 3)
+#ifdef TARGET_ARC32
 MAPPING(fcvt32_64, FCVT32_64, 3, 0, 1, 2)
+#endif
 
 SEMANTIC_FUNCTION(FCVT64, 3)
+#ifdef TARGET_ARC32
 MAPPING(fcvt64, FCVT64, 3, 0, 1, 2)
+#endif
 
 SEMANTIC_FUNCTION(FCVT64_32, 3)
+#ifdef TARGET_ARC32
 MAPPING(fcvt64_32, FCVT64_32, 3, 0, 1, 2)
+#endif
