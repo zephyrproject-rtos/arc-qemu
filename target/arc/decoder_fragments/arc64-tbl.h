@@ -11396,511 +11396,511 @@
 { "xor_s", 0x00007807, 0x0000f81f, ARC_OPCODE_ARC64 | ARC_OPCODE_ARC32, LOGICAL, NONE, { RB_S, RB_Sdup, RC_S }, { 0 } }
 
 /* fhmadd FA,FB,FC,FD 11100xxxxxxxx00000xx1xxxxx0xxxxx */
-{ "fhmadd", 0xe0000800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fhmadd", 0xe0000800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fhmsub FA,FB,FC,FD 11100xxxxxxxx00000xx1xxxxx1xxxxx */
-{ "fhmsub", 0xe0000820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fhmsub", 0xe0000820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fhnmadd FA,FB,FC,FD 11100xxxxxxxx00100xx1xxxxx0xxxxx */
-{ "fhnmadd", 0xe0010800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fhnmadd", 0xe0010800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fhnmsub FA,FB,FC,FD 11100xxxxxxxx00100xx1xxxxx1xxxxx */
-{ "fhnmsub", 0xe0010820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fhnmsub", 0xe0010820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fsmadd FA,FB,FC,FD 11100xxxxxxxx00001xx1xxxxx0xxxxx */
-{ "fsmadd", 0xe0004800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fsmadd", 0xe0004800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fsmsub FA,FB,FC,FD 11100xxxxxxxx00001xx1xxxxx1xxxxx */
-{ "fsmsub", 0xe0004820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fsmsub", 0xe0004820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fsnmadd FA,FB,FC,FD 11100xxxxxxxx00101xx1xxxxx0xxxxx */
-{ "fsnmadd", 0xe0014800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fsnmadd", 0xe0014800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fsnmsub FA,FB,FC,FD 11100xxxxxxxx00101xx1xxxxx1xxxxx */
-{ "fsnmsub", 0xe0014820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fsnmsub", 0xe0014820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fdmadd FA,FB,FC,FD 11100xxxxxxxx00010xx1xxxxx0xxxxx */
-{ "fdmadd", 0xe0008800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fdmadd", 0xe0008800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fdmsub FA,FB,FC,FD 11100xxxxxxxx00010xx1xxxxx1xxxxx */
-{ "fdmsub", 0xe0008820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fdmsub", 0xe0008820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fdnmadd FA,FB,FC,FD 11100xxxxxxxx00110xx1xxxxx0xxxxx */
-{ "fdnmadd", 0xe0018800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fdnmadd", 0xe0018800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* fdnmsub FA,FB,FC,FD 11100xxxxxxxx00110xx1xxxxx1xxxxx */
-{ "fdnmsub", 0xe0018820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "fdnmsub", 0xe0018820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhmadd FA,FB,FC,FD 11100xxxxxxxx01000xx1xxxxx0xxxxx */
-{ "vfhmadd", 0xe0020800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhmadd", 0xe0020800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhmsub FA,FB,FC,FD 11100xxxxxxxx01000xx1xxxxx1xxxxx */
-{ "vfhmsub", 0xe0020820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhmsub", 0xe0020820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhnmadd FA,FB,FC,FD 11100xxxxxxxx01100xx1xxxxx0xxxxx */
-{ "vfhnmadd", 0xe0030800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhnmadd", 0xe0030800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhnmsub FA,FB,FC,FD 11100xxxxxxxx01100xx1xxxxx1xxxxx */
-{ "vfhnmsub", 0xe0030820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhnmsub", 0xe0030820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhmadds FA,FB,FC,FD 11100xxxxxxxx11000xx1xxxxx0xxxxx */
-{ "vfhmadds", 0xe0060800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhmadds", 0xe0060800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhmsubs FA,FB,FC,FD 11100xxxxxxxx11000xx1xxxxx1xxxxx */
-{ "vfhmsubs", 0xe0060820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhmsubs", 0xe0060820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhnmadds FA,FB,FC,FD 11100xxxxxxxx11100xx1xxxxx0xxxxx */
-{ "vfhnmadds", 0xe0070800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhnmadds", 0xe0070800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfhnmsubs FA,FB,FC,FD 11100xxxxxxxx11100xx1xxxxx1xxxxx */
-{ "vfhnmsubs", 0xe0070820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfhnmsubs", 0xe0070820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsmadd FA,FB,FC,FD 11100xxxxxxxx01001xx1xxxxx0xxxxx */
-{ "vfsmadd", 0xe0024800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsmadd", 0xe0024800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsmsub FA,FB,FC,FD 11100xxxxxxxx01001xx1xxxxx1xxxxx */
-{ "vfsmsub", 0xe0024820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsmsub", 0xe0024820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsnmadd FA,FB,FC,FD 11100xxxxxxxx01101xx1xxxxx0xxxxx */
-{ "vfsnmadd", 0xe0034800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsnmadd", 0xe0034800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsnmsub FA,FB,FC,FD 11100xxxxxxxx01101xx1xxxxx1xxxxx */
-{ "vfsnmsub", 0xe0034820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsnmsub", 0xe0034820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsmadds FA,FB,FC,FD 11100xxxxxxxx11001xx1xxxxx0xxxxx */
-{ "vfsmadds", 0xe0064800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsmadds", 0xe0064800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsmsubs FA,FB,FC,FD 11100xxxxxxxx11001xx1xxxxx1xxxxx */
-{ "vfsmsubs", 0xe0064820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsmsubs", 0xe0064820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsnmadds FA,FB,FC,FD 11100xxxxxxxx11101xx1xxxxx0xxxxx */
-{ "vfsnmadds", 0xe0074800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsnmadds", 0xe0074800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfsnmsubs FA,FB,FC,FD 11100xxxxxxxx11101xx1xxxxx1xxxxx */
-{ "vfsnmsubs", 0xe0074820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
+{ "vfsnmsubs", 0xe0074820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC, FD }, { 0 } }
 
 /* vfdmadd FDA,FDB,FDC,FDD 11100xxxxxxxx01010xx1xxxxx0xxxxx */
-{ "vfdmadd", 0xe0028800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdmadd", 0xe0028800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdmsub FDA,FDB,FDC,FDD 11100xxxxxxxx01010xx1xxxxx1xxxxx */
-{ "vfdmsub", 0xe0028820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdmsub", 0xe0028820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdnmadd FDA,FDB,FDC,FDD 11100xxxxxxxx01110xx1xxxxx0xxxxx */
-{ "vfdnmadd", 0xe0038800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdnmadd", 0xe0038800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdnmsub FDA,FDB,FDC,FDD 11100xxxxxxxx01110xx1xxxxx1xxxxx */
-{ "vfdnmsub", 0xe0038820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdnmsub", 0xe0038820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdmadds FDA,FDB,FDC,FDD 11100xxxxxxxx11010xx1xxxxx0xxxxx */
-{ "vfdmadds", 0xe0068800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdmadds", 0xe0068800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdmsubs FDA,FDB,FDC,FDD 11100xxxxxxxx11010xx1xxxxx1xxxxx */
-{ "vfdmsubs", 0xe0068820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdmsubs", 0xe0068820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdnmadds FDA,FDB,FDC,FDD 11100xxxxxxxx11110xx1xxxxx0xxxxx */
-{ "vfdnmadds", 0xe0078800, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdnmadds", 0xe0078800, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* vfdnmsubs FDA,FDB,FDC,FDD 11100xxxxxxxx11110xx1xxxxx1xxxxx */
-{ "vfdnmsubs", 0xe0078820, 0xf807c820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
+{ "vfdnmsubs", 0xe0078820, 0xf807c820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC, FDD }, { 0 } }
 
 /* fhadd FA,FB,FC 11100xxx0000000000xx0xxxxx1xxxxx */
-{ "fhadd", 0xe0000020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhadd", 0xe0000020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhsub FA,FB,FC 11100xxx0000000100xx0xxxxx1xxxxx */
-{ "fhsub", 0xe0010020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhsub", 0xe0010020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhmul FA,FB,FC 11100xxx0000001000xx0xxxxx1xxxxx */
-{ "fhmul", 0xe0020020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhmul", 0xe0020020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhdiv FA,FB,FC 11100xxx0000001100xx0xxxxx1xxxxx */
-{ "fhdiv", 0xe0030020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhdiv", 0xe0030020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhmin FA,FB,FC 11100xxx0000011000xx0xxxxx1xxxxx */
-{ "fhmin", 0xe0060020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhmin", 0xe0060020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhmax FA,FB,FC 11100xxx0000011100xx0xxxxx1xxxxx */
-{ "fhmax", 0xe0070020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhmax", 0xe0070020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhsgnj FA,FB,FC 11100xxx0000100000xx0xxxxx1xxxxx */
-{ "fhsgnj", 0xe0080020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhsgnj", 0xe0080020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhsgnjn FA,FB,FC 11100xxx0000101000xx0xxxxx1xxxxx */
-{ "fhsgnjn", 0xe00a0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhsgnjn", 0xe00a0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhsgnjx FA,FB,FC 11100xxx0000101100xx0xxxxx1xxxxx */
-{ "fhsgnjx", 0xe00b0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fhsgnjx", 0xe00b0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fsadd FA,FB,FC 11100xxx0000000001xx0xxxxx1xxxxx */
-{ "fsadd", 0xe0004020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fsadd", 0xe0004020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fssub FA,FB,FC 11100xxx0000000101xx0xxxxx1xxxxx */
-{ "fssub", 0xe0014020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fssub", 0xe0014020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fsmul FA,FB,FC 11100xxx0000001001xx0xxxxx1xxxxx */
-{ "fsmul", 0xe0024020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fsmul", 0xe0024020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fsdiv FA,FB,FC 11100xxx0000001101xx0xxxxx1xxxxx */
-{ "fsdiv", 0xe0034020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fsdiv", 0xe0034020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fsmin FA,FB,FC 11100xxx0000011001xx0xxxxx1xxxxx */
-{ "fsmin", 0xe0064020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fsmin", 0xe0064020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fsmax FA,FB,FC 11100xxx0000011101xx0xxxxx1xxxxx */
-{ "fsmax", 0xe0074020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fsmax", 0xe0074020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fssgnj FA,FB,FC 11100xxx0000100001xx0xxxxx1xxxxx */
-{ "fssgnj", 0xe0084020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fssgnj", 0xe0084020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fssgnjn FA,FB,FC 11100xxx0000101001xx0xxxxx1xxxxx */
-{ "fssgnjn", 0xe00a4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fssgnjn", 0xe00a4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fssgnjx FA,FB,FC 11100xxx0000101101xx0xxxxx1xxxxx */
-{ "fssgnjx", 0xe00b4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fssgnjx", 0xe00b4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdadd FA,FB,FC 11100xxx0000000010xx0xxxxx1xxxxx */
-{ "fdadd", 0xe0008020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdadd", 0xe0008020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdsub FA,FB,FC 11100xxx0000000110xx0xxxxx1xxxxx */
-{ "fdsub", 0xe0018020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdsub", 0xe0018020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdmul FA,FB,FC 11100xxx0000001010xx0xxxxx1xxxxx */
-{ "fdmul", 0xe0028020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdmul", 0xe0028020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fddiv FA,FB,FC 11100xxx0000001110xx0xxxxx1xxxxx */
-{ "fddiv", 0xe0038020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fddiv", 0xe0038020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdmin FA,FB,FC 11100xxx0000011010xx0xxxxx1xxxxx */
-{ "fdmin", 0xe0068020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdmin", 0xe0068020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdmax FA,FB,FC 11100xxx0000011110xx0xxxxx1xxxxx */
-{ "fdmax", 0xe0078020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdmax", 0xe0078020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdsgnj FA,FB,FC 11100xxx0000100010xx0xxxxx1xxxxx */
-{ "fdsgnj", 0xe0088020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdsgnj", 0xe0088020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdsgnjn FA,FB,FC 11100xxx0000101010xx0xxxxx1xxxxx */
-{ "fdsgnjn", 0xe00a8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdsgnjn", 0xe00a8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fdsgnjx FA,FB,FC 11100xxx0000101110xx0xxxxx1xxxxx */
-{ "fdsgnjx", 0xe00b8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "fdsgnjx", 0xe00b8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* fhcmp FB,FC 11100xxx0000010000xx0xxxxx1xxxxx */
-{ "fhcmp", 0xe0040020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fhcmp", 0xe0040020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* fhcmpf FB,FC 11100xxx0000010100xx0xxxxx1xxxxx */
-{ "fhcmpf", 0xe0050020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fhcmpf", 0xe0050020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* fscmp FB,FC 11100xxx0000010001xx0xxxxx1xxxxx */
-{ "fscmp", 0xe0044020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fscmp", 0xe0044020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* fscmpf FB,FC 11100xxx0000010101xx0xxxxx1xxxxx */
-{ "fscmpf", 0xe0054020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fscmpf", 0xe0054020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* fdcmp FB,FC 11100xxx0000010010xx0xxxxx1xxxxx */
-{ "fdcmp", 0xe0048020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fdcmp", 0xe0048020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* fdcmpf FB,FC 11100xxx0000010110xx0xxxxx1xxxxx */
-{ "fdcmpf", 0xe0058020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FB, FC }, { 0 } }
+{ "fdcmpf", 0xe0058020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FB, FC }, { 0 } }
 
 /* vfhadd FA,FB,FC 11100xxx0001000000xx0xxxxx1xxxxx */
-{ "vfhadd", 0xe0100020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhadd", 0xe0100020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhsub FA,FB,FC 11100xxx0001000100xx0xxxxx1xxxxx */
-{ "vfhsub", 0xe0110020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhsub", 0xe0110020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhmul FA,FB,FC 11100xxx0001001000xx0xxxxx1xxxxx */
-{ "vfhmul", 0xe0120020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhmul", 0xe0120020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhdiv FA,FB,FC 11100xxx0001001100xx0xxxxx1xxxxx */
-{ "vfhdiv", 0xe0130020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhdiv", 0xe0130020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhadds FA,FB,FC 11100xxx0001010000xx0xxxxx1xxxxx */
-{ "vfhadds", 0xe0140020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhadds", 0xe0140020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhsubs FA,FB,FC 11100xxx0001010100xx0xxxxx1xxxxx */
-{ "vfhsubs", 0xe0150020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhsubs", 0xe0150020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhmuls FA,FB,FC 11100xxx0001011000xx0xxxxx1xxxxx */
-{ "vfhmuls", 0xe0160020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhmuls", 0xe0160020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhdivs FA,FB,FC 11100xxx0001011100xx0xxxxx1xxxxx */
-{ "vfhdivs", 0xe0170020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhdivs", 0xe0170020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhunpkl FA,FB,FC 11100xxx0001100000xx0xxxxx1xxxxx */
-{ "vfhunpkl", 0xe0180020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhunpkl", 0xe0180020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhunpkm FA,FB,FC 11100xxx0001100100xx0xxxxx1xxxxx */
-{ "vfhunpkm", 0xe0190020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhunpkm", 0xe0190020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhpackl FA,FB,FC 11100xxx0001101000xx0xxxxx1xxxxx */
-{ "vfhpackl", 0xe01a0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhpackl", 0xe01a0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhpackm FA,FB,FC 11100xxx0001101100xx0xxxxx1xxxxx */
-{ "vfhpackm", 0xe01b0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhpackm", 0xe01b0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhbflyl FA,FB,FC 11100xxx0001110000xx0xxxxx1xxxxx */
-{ "vfhbflyl", 0xe01c0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhbflyl", 0xe01c0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhbflym FA,FB,FC 11100xxx0001110100xx0xxxxx1xxxxx */
-{ "vfhbflym", 0xe01d0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhbflym", 0xe01d0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhaddsub FA,FB,FC 11100xxx0001111000xx0xxxxx1xxxxx */
-{ "vfhaddsub", 0xe01e0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhaddsub", 0xe01e0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfhsubadd FA,FB,FC 11100xxx0001111100xx0xxxxx1xxxxx */
-{ "vfhsubadd", 0xe01f0020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfhsubadd", 0xe01f0020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsadd FA,FB,FC 11100xxx0001000001xx0xxxxx1xxxxx */
-{ "vfsadd", 0xe0104020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsadd", 0xe0104020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfssub FA,FB,FC 11100xxx0001000101xx0xxxxx1xxxxx */
-{ "vfssub", 0xe0114020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfssub", 0xe0114020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsmul FA,FB,FC 11100xxx0001001001xx0xxxxx1xxxxx */
-{ "vfsmul", 0xe0124020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsmul", 0xe0124020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsdiv FA,FB,FC 11100xxx0001001101xx0xxxxx1xxxxx */
-{ "vfsdiv", 0xe0134020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsdiv", 0xe0134020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsadds FA,FB,FC 11100xxx0001010001xx0xxxxx1xxxxx */
-{ "vfsadds", 0xe0144020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsadds", 0xe0144020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfssubs FA,FB,FC 11100xxx0001010101xx0xxxxx1xxxxx */
-{ "vfssubs", 0xe0154020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfssubs", 0xe0154020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsmuls FA,FB,FC 11100xxx0001011001xx0xxxxx1xxxxx */
-{ "vfsmuls", 0xe0164020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsmuls", 0xe0164020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsdivs FA,FB,FC 11100xxx0001011101xx0xxxxx1xxxxx */
-{ "vfsdivs", 0xe0174020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsdivs", 0xe0174020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsunpkl FA,FB,FC 11100xxx0001100001xx0xxxxx1xxxxx */
-{ "vfsunpkl", 0xe0184020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsunpkl", 0xe0184020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsunpkm FA,FB,FC 11100xxx0001100101xx0xxxxx1xxxxx */
-{ "vfsunpkm", 0xe0194020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsunpkm", 0xe0194020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfspackl FA,FB,FC 11100xxx0001101001xx0xxxxx1xxxxx */
-{ "vfspackl", 0xe01a4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfspackl", 0xe01a4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfspackm FA,FB,FC 11100xxx0001101101xx0xxxxx1xxxxx */
-{ "vfspackm", 0xe01b4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfspackm", 0xe01b4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsbflyl FA,FB,FC 11100xxx0001110001xx0xxxxx1xxxxx */
-{ "vfsbflyl", 0xe01c4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsbflyl", 0xe01c4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsbflym FA,FB,FC 11100xxx0001110101xx0xxxxx1xxxxx */
-{ "vfsbflym", 0xe01d4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsbflym", 0xe01d4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfsaddsub FA,FB,FC 11100xxx0001111001xx0xxxxx1xxxxx */
-{ "vfsaddsub", 0xe01e4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfsaddsub", 0xe01e4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfssubadd FA,FB,FC 11100xxx0001111101xx0xxxxx1xxxxx */
-{ "vfssubadd", 0xe01f4020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, FC }, { 0 } }
+{ "vfssubadd", 0xe01f4020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, FC }, { 0 } }
 
 /* vfdadd FDA,FDB,FDC 11100xxx0001000010xx0xxxxx1xxxxx */
-{ "vfdadd", 0xe0108020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdadd", 0xe0108020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdsub FDA,FDB,FDC 11100xxx0001000110xx0xxxxx1xxxxx */
-{ "vfdsub", 0xe0118020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdsub", 0xe0118020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdmul FDA,FDB,FDC 11100xxx0001001010xx0xxxxx1xxxxx */
-{ "vfdmul", 0xe0128020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdmul", 0xe0128020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfddiv FDA,FDB,FDC 11100xxx0001001110xx0xxxxx1xxxxx */
-{ "vfddiv", 0xe0138020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfddiv", 0xe0138020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdadds FDA,FDB,FDC 11100xxx0001010010xx0xxxxx1xxxxx */
-{ "vfdadds", 0xe0148020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdadds", 0xe0148020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdsubs FDA,FDB,FDC 11100xxx0001010110xx0xxxxx1xxxxx */
-{ "vfdsubs", 0xe0158020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdsubs", 0xe0158020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdmuls FDA,FDB,FDC 11100xxx0001011010xx0xxxxx1xxxxx */
-{ "vfdmuls", 0xe0168020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdmuls", 0xe0168020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfddivs FDA,FDB,FDC 11100xxx0001011110xx0xxxxx1xxxxx */
-{ "vfddivs", 0xe0178020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfddivs", 0xe0178020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdunpkl FDA,FDB,FDC 11100xxx0001100010xx0xxxxx1xxxxx */
-{ "vfdunpkl", 0xe0188020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdunpkl", 0xe0188020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdunpkm FDA,FDB,FDC 11100xxx0001100110xx0xxxxx1xxxxx */
-{ "vfdunpkm", 0xe0198020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdunpkm", 0xe0198020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdpackl FDA,FDB,FDC 11100xxx0001101010xx0xxxxx1xxxxx */
-{ "vfdpackl", 0xe01a8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdpackl", 0xe01a8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdpackm FDA,FDB,FDC 11100xxx0001101110xx0xxxxx1xxxxx */
-{ "vfdpackm", 0xe01b8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdpackm", 0xe01b8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdbflyl FDA,FDB,FDC 11100xxx0001110010xx0xxxxx1xxxxx */
-{ "vfdbflyl", 0xe01c8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdbflyl", 0xe01c8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdbflym FDA,FDB,FDC 11100xxx0001110110xx0xxxxx1xxxxx */
-{ "vfdbflym", 0xe01d8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdbflym", 0xe01d8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdaddsub FDA,FDB,FDC 11100xxx0001111010xx0xxxxx1xxxxx */
-{ "vfdaddsub", 0xe01e8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdaddsub", 0xe01e8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* vfdsubadd FDA,FDB,FDC 11100xxx0001111110xx0xxxxx1xxxxx */
-{ "vfdsubadd", 0xe01f8020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
+{ "vfdsubadd", 0xe01f8020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB, FDC }, { 0 } }
 
 /* fhsqrt FA,FB 111000000100000000000xxxxx1xxxxx */
-{ "fhsqrt", 0xe0400020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "fhsqrt", 0xe0400020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* fssqrt FA,FB 111000000100000001000xxxxx1xxxxx */
-{ "fssqrt", 0xe0404020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "fssqrt", 0xe0404020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* fdsqrt FA,FB 111000000100000010000xxxxx1xxxxx */
-{ "fdsqrt", 0xe0408020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "fdsqrt", 0xe0408020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfhsqrt FA,FB 111000000100000100000xxxxx1xxxxx */
-{ "vfhsqrt", 0xe0410020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfhsqrt", 0xe0410020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfssqrt FA,FB 111000000100000101000xxxxx1xxxxx */
-{ "vfssqrt", 0xe0414020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfssqrt", 0xe0414020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfdsqrt FDA,FDB 111000000100000110000xxxxx1xxxxx */
-{ "vfdsqrt", 0xe0418020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB }, { 0 } }
+{ "vfdsqrt", 0xe0418020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB }, { 0 } }
 
 /* vfhexch FA,FB 111000000100001000000xxxxx1xxxxx */
-{ "vfhexch", 0xe0420020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfhexch", 0xe0420020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfsexch FA,FB 111000000100001001000xxxxx1xxxxx */
-{ "vfsexch", 0xe0424020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfsexch", 0xe0424020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfdexch FDA,FDB 111000000100001010000xxxxx1xxxxx */
-{ "vfdexch", 0xe0428020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FDA, FDB }, { 0 } }
+{ "vfdexch", 0xe0428020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FDA, FDB }, { 0 } }
 
 /* fhmov FA,FB 11100xxx0100100000xx0xxxxx1xxxxx */
-{ "fhmov", 0xe0480020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "fhmov", 0xe0480020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* fsmov FA,FB 11100xxx0100100001xx0xxxxx1xxxxx */
-{ "fsmov", 0xe0484020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "fsmov", 0xe0484020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* fdmov FA,FB 11100xxx0100100010xx0xxxxx1xxxxx */
-{ "fdmov", 0xe0488020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "fdmov", 0xe0488020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* vfhmov FA,FB 11100xxx0100100100xx0xxxxx1xxxxx */
-{ "vfhmov", 0xe0490020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "vfhmov", 0xe0490020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* vfsmov FA,FB 11100xxx0100100101xx0xxxxx1xxxxx */
-{ "vfsmov", 0xe0494020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "vfsmov", 0xe0494020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* vfdmov FA,FB 11100xxx0100100110xx0xxxxx1xxxxx */
-{ "vfdmov", 0xe0498020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { C_FPCC } }
+{ "vfdmov", 0xe0498020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { C_FPCC } }
 
 /* fuint2s FA,FRB 11100xxx1110000000xx0xxxxx100000 */
-{ "fuint2s", 0xe0e00020, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fuint2s", 0xe0e00020, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fuint2d FA,FRB 11100xxx1110000100xx0xxxxx100000 */
-{ "fuint2d", 0xe0e10020, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fuint2d", 0xe0e10020, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* ful2s FA,FRB 11100xxx1110001000xx0xxxxx100000 */
-{ "ful2s", 0xe0e20020, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "ful2s", 0xe0e20020, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* ful2d FA,FRB 11100xxx1110001100xx0xxxxx100000 */
-{ "ful2d", 0xe0e30020, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "ful2d", 0xe0e30020, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fs2uint FRD,FC 11100xxx0110000000xx0xxxxx100001 */
-{ "fs2uint", 0xe0600021, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2uint", 0xe0600021, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2ul FRD,FC 11100xxx0110000100xx0xxxxx100001 */
-{ "fs2ul", 0xe0610021, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2ul", 0xe0610021, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2uint FRD,FC 11100xxx0110001000xx0xxxxx100001 */
-{ "fd2uint", 0xe0620021, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2uint", 0xe0620021, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2ul FRD,FC 11100xxx0110001100xx0xxxxx100001 */
-{ "fd2ul", 0xe0630021, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2ul", 0xe0630021, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fint2s FA,FRB 11100xxx1110000000xx0xxxxx100010 */
-{ "fint2s", 0xe0e00022, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fint2s", 0xe0e00022, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fint2d FA,FRB 11100xxx1110000100xx0xxxxx100010 */
-{ "fint2d", 0xe0e10022, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fint2d", 0xe0e10022, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fl2s FA,FRB 11100xxx1110001000xx0xxxxx100010 */
-{ "fl2s", 0xe0e20022, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fl2s", 0xe0e20022, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fl2d FA,FRB 11100xxx1110001100xx0xxxxx100010 */
-{ "fl2d", 0xe0e30022, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fl2d", 0xe0e30022, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fs2int FRD,FC 11100xxx0110000000xx0xxxxx100011 */
-{ "fs2int", 0xe0600023, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2int", 0xe0600023, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2l FRD,FC 11100xxx0110000100xx0xxxxx100011 */
-{ "fs2l", 0xe0610023, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2l", 0xe0610023, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2int FRD,FC 11100xxx0110001000xx0xxxxx100011 */
-{ "fd2int", 0xe0620023, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2int", 0xe0620023, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2l FRD,FC 11100xxx0110001100xx0xxxxx100011 */
-{ "fd2l", 0xe0630023, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2l", 0xe0630023, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2d FA,FC 11100xxx0110000100xx0xxxxx100100 */
-{ "fs2d", 0xe0610024, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fs2d", 0xe0610024, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fd2s FA,FC 11100xxx0110001000xx0xxxxx100100 */
-{ "fd2s", 0xe0620024, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fd2s", 0xe0620024, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fsrnd FA,FC 11100xxx0110000000xx0xxxxx100110 */
-{ "fsrnd", 0xe0600026, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fsrnd", 0xe0600026, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fdrnd FA,FC 11100xxx0110001100xx0xxxxx100110 */
-{ "fdrnd", 0xe0630026, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fdrnd", 0xe0630026, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fs2uint_rz FRD,FC 11100xxx0110000000xx0xxxxx101001 */
-{ "fs2uint_rz", 0xe0600029, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2uint_rz", 0xe0600029, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2ul_rz FRD,FC 11100xxx0110000100xx0xxxxx101001 */
-{ "fs2ul_rz", 0xe0610029, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2ul_rz", 0xe0610029, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2uint_rz FRD,FC 11100xxx0110001000xx0xxxxx101001 */
-{ "fd2uint_rz", 0xe0620029, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2uint_rz", 0xe0620029, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2ul_rz FRD,FC 11100xxx0110001100xx0xxxxx101001 */
-{ "fd2ul_rz", 0xe0630029, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2ul_rz", 0xe0630029, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2int_rz FRD,FC 11100xxx0110000000xx0xxxxx101011 */
-{ "fs2int_rz", 0xe060002b, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2int_rz", 0xe060002b, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2l_rz FRD,FC 11100xxx0110000100xx0xxxxx101011 */
-{ "fs2l_rz", 0xe061002b, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fs2l_rz", 0xe061002b, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2int_rz FRD,FC 11100xxx0110001000xx0xxxxx101011 */
-{ "fd2int_rz", 0xe062002b, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2int_rz", 0xe062002b, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fd2l_rz FRD,FC 11100xxx0110001100xx0xxxxx101011 */
-{ "fd2l_rz", 0xe063002b, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fd2l_rz", 0xe063002b, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fsrnd_rz FA,FC 11100xxx0110000000xx0xxxxx101110 */
-{ "fsrnd_rz", 0xe060002e, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fsrnd_rz", 0xe060002e, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fdrnd_rz FA,FC 11100xxx0110001100xx0xxxxx101110 */
-{ "fdrnd_rz", 0xe063002e, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fdrnd_rz", 0xe063002e, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fmvi2s FA,FRB 11100xxx1110000000xx0xxxxx110000 */
-{ "fmvi2s", 0xe0e00030, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fmvi2s", 0xe0e00030, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fmvl2d FA,FRB 11100xxx1110001100xx0xxxxx110000 */
-{ "fmvl2d", 0xe0e30030, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FRB }, { 0 } }
+{ "fmvl2d", 0xe0e30030, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FRB }, { 0 } }
 
 /* fmvs2i FRD,FC 11100xxx0110000000xx0xxxxx110001 */
-{ "fmvs2i", 0xe0600031, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fmvs2i", 0xe0600031, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fmvd2l FRD,FC 11100xxx0110001100xx0xxxxx110001 */
-{ "fmvd2l", 0xe0630031, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FRD, FC }, { 0 } }
+{ "fmvd2l", 0xe0630031, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FRD, FC }, { 0 } }
 
 /* fs2h FA,FC 11100xxx0110000000xx0xxxxx110100 */
-{ "fs2h", 0xe0600034, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fs2h", 0xe0600034, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fh2s FA,FC 11100xxx0110000000xx0xxxxx110101 */
-{ "fh2s", 0xe0600035, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fh2s", 0xe0600035, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fs2h_rz FA,FC 11100xxx0110000000xx0xxxxx111100 */
-{ "fs2h_rz", 0xe060003c, 0xf8ffc83f, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FC }, { 0 } }
+{ "fs2h_rz", 0xe060003c, 0xf8ffc83f, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FC }, { 0 } }
 
 /* fld16<.aa> FA,BRAKET,RB,SIMM9_8,BRAKETdup 01101xxxxxxxxxxxxxxx0xxxxx0xx100 */
 { "fld16", 0x68000004, 0xf8000827, ARC_OPCODE_ARC64, LOAD, NONE, { FA, BRAKET, RB, SIMM9_8, BRAKETdup }, { C_AA27 } }
@@ -11963,49 +11963,49 @@
 { "fstd64", 0x6e007023, 0xfffff83f, ARC_OPCODE_ARC64, LOAD, NONE, { FA, BRAKET, LIMM, BRAKETdup }, { 0 } }
 
 /* vfhext FA,FB,BRAKET,UIMM5_FP,BRAKETdup 11100xxx0101000000xx0xxxxx1xxxxx */
-{ "vfhext", 0xe0500020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
+{ "vfhext", 0xe0500020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
 
 /* vfhext FA,FB,BRAKET,FRB,BRAKETdup 11100xxx1000000000xx0xxxxx1xxxxx */
-{ "vfhext", 0xe0800020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
+{ "vfhext", 0xe0800020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
 
 /* vfsext FA,FB,BRAKET,UIMM5_FP,BRAKETdup 11100xxx0101000001xx0xxxxx1xxxxx */
-{ "vfsext", 0xe0504020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
+{ "vfsext", 0xe0504020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
 
 /* vfsext FA,FB,BRAKET,FRB,BRAKETdup 11100xxx1000000001xx0xxxxx1xxxxx */
-{ "vfsext", 0xe0804020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
+{ "vfsext", 0xe0804020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
 
 /* vfdext FA,FB,BRAKET,UIMM5_FP,BRAKETdup 11100xxx0101000010xx0xxxxx1xxxxx */
-{ "vfdext", 0xe0508020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
+{ "vfdext", 0xe0508020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, UIMM5_FP, BRAKETdup }, { 0 } }
 
 /* vfdext FA,FB,BRAKET,FRB,BRAKETdup 11100xxx1000000010xx0xxxxx1xxxxx */
-{ "vfdext", 0xe0808020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
+{ "vfdext", 0xe0808020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB, BRAKET, FRB, BRAKETdup }, { 0 } }
 
 /* vfhins FA,BRAKET,UIMM5_FP,BRAKETdup,FB 11100xxx0101000100xx0xxxxx1xxxxx */
-{ "vfhins", 0xe0510020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
+{ "vfhins", 0xe0510020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
 
 /* vfhins FA,BRAKET,FRB,BRAKETdup,FB 11100xxx1000000100xx0xxxxx1xxxxx */
-{ "vfhins", 0xe0810020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
+{ "vfhins", 0xe0810020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
 
 /* vfsins FA,BRAKET,UIMM5_FP,BRAKETdup,FB 11100xxx0101000101xx0xxxxx1xxxxx */
-{ "vfsins", 0xe0514020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
+{ "vfsins", 0xe0514020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
 
 /* vfsins FA,BRAKET,FRB,BRAKETdup,FB 11100xxx1000000101xx0xxxxx1xxxxx */
-{ "vfsins", 0xe0814020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
+{ "vfsins", 0xe0814020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
 
 /* vfdins FA,BRAKET,UIMM5_FP,BRAKETdup,FB 11100xxx0101000110xx0xxxxx1xxxxx */
-{ "vfdins", 0xe0518020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
+{ "vfdins", 0xe0518020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, UIMM5_FP, BRAKETdup, FB }, { 0 } }
 
 /* vfdins FA,BRAKET,FRB,BRAKETdup,FB 11100xxx1000000110xx0xxxxx1xxxxx */
-{ "vfdins", 0xe0818020, 0xf8ffc820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
+{ "vfdins", 0xe0818020, 0xf8ffc820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, BRAKET, FRB, BRAKETdup, FB }, { 0 } }
 
 /* vfhrep FA,FB 111000000101001000000xxxxx1xxxxx */
-{ "vfhrep", 0xe0520020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfhrep", 0xe0520020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfsrep FA,FB 111000000101001001000xxxxx1xxxxx */
-{ "vfsrep", 0xe0524020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfsrep", 0xe0524020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vfdrep FA,FB 111000000101001010000xxxxx1xxxxx */
-{ "vfdrep", 0xe0528020, 0xfffff820, ARC_OPCODE_ARC64, FLOAT, NONE, { FA, FB }, { 0 } }
+{ "vfdrep", 0xe0528020, 0xfffff820, ARC_OPCODE_ARC64, ARC64_FLOAT, NONE, { FA, FB }, { 0 } }
 
 /* vmin2 RA,RB,RC 00101xxx001110001xxxxxxxxxxxxxxx */
 { "vmin2", 0x28388000, 0xf8ff8000, ARC_OPCODE_ARC64, MOVE, NONE, { RA, RB, RC }, { 0 } }

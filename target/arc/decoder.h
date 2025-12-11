@@ -151,7 +151,7 @@ typedef enum {
     STORE,
     SUB,
     XY,
-    FLOAT
+    ARC64_FLOAT
 } insn_class_t;
 
 /* Instruction Subclass.  */
