@@ -683,8 +683,14 @@ static struct arc_stat *conv_stat(struct stat *st)
     arc_st->my_gid = st->st_gid;
     arc_st->my_rdev = st->st_rdev;
     arc_st->my_size = st->st_size;
+#ifdef _WIN32
+    /* Windows stat does not have st_blocks and st_blksize. */
+    arc_st->my_blocks = 0;
+    arc_st->my_blksize = 0;
+#else
     arc_st->my_blocks = st->st_blocks;
     arc_st->my_blksize = st->st_blksize;
+#endif
     arc_st->my_atime = st->st_atime;
     arc_st->my_mtime = st->st_mtime;
     arc_st->my_ctime = st->st_ctime;
